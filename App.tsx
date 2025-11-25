@@ -8,7 +8,8 @@ import { Dashboard } from './components/Dashboard';
 import { PricingFAQ } from './components/PricingFAQ';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-
+import PrivacySection from './components/PrivacySection';
+import TermsSection  from './components/TermsSection'
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-brand-dark text-slate-50 selection:bg-cyan-500/30">
@@ -21,6 +22,8 @@ const App: React.FC = () => {
         <Dashboard />
         <PricingFAQ />
         <Contact />
+        <PrivacySection />
+        <TermsSection />
       </main>
       <Footer />
     </div>
@@ -28,3 +31,7 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+
+
+
